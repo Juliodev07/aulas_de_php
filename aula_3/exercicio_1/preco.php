@@ -14,7 +14,7 @@ if ($custo <= 39999.99) {
 
 $preco = $custo + ($custo * $distribuidor) + ($custo * $imposto);
 
-// Exibe o resultado usando echo
+
 echo "<h2>Resultado</h2>";
 echo "Custo de fábrica: R$  $preco"; 
 ?>
